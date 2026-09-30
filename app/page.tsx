@@ -116,7 +116,7 @@ export default function Home() {
           <p className="section-label">04 <span>—</span> BUILDING AS A FOUNDER</p>
           <h2>Making room for<br />ideas to become <em>real.</em></h2>
           <p className="founder-copy">I founded <strong>Pleron Labs</strong> to work at the intersection of technology, products and business problems. I like figuring out what should be built, then shaping it into practical software—from custom applications and business tools to e-commerce and applied AI.</p>
-          <a className="text-link" href="#contact">More about Pleron Labs <Arrow /></a>
+          <a className="text-link" href="https://pleronlabs.com/" target="_blank" rel="noreferrer">More about Pleron Labs <Arrow /></a>
         </div>
         <div className="founder-aside">
           <Image
