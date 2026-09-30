@@ -118,7 +118,17 @@ export default function Home() {
           <p className="founder-copy">I founded <strong>Pleron Labs</strong> to work at the intersection of technology, products and business problems. I like figuring out what should be built, then shaping it into practical software—from custom applications and business tools to e-commerce and applied AI.</p>
           <a className="text-link" href="#contact">More about Pleron Labs <Arrow /></a>
         </div>
-        <div className="founder-aside"><span>AN INDEPENDENT<br />SOFTWARE COMPANY</span><span>PRODUCTS · SOFTWARE<br />· PRACTICAL IDEAS</span></div>
+        <div className="founder-aside">
+          <Image
+            src="/image/WhatsApp%20Image%202026-01-24%20at%208.07.33%20AM.jpeg"
+            alt="Pleron Labs — Software and AI Systems"
+            width={1000}
+            height={1000}
+            sizes="(max-width: 640px) 84vw, (max-width: 900px) 145px, 180px"
+            className="founder-image"
+          />
+          <span>PRODUCTS · SOFTWARE<br />· PRACTICAL IDEAS</span>
+        </div>
       </section>
 
       <section className="builder-section">
