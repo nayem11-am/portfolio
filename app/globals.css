@@ -153,7 +153,7 @@ h1 em, h2 em { color: var(--accent); font-family: Georgia, 'Times New Roman', se
 .site-footer { min-height: 95px; display: grid; grid-template-columns: 1.3fr 1fr 1fr auto; gap: 20px; align-items: center; }
 .footer-name { font-family: Georgia, serif; font-size: 18px; letter-spacing: -.04em; }
 .site-footer > span, .back-top { font-size: 7px; line-height: 1.8; color: #85867e; }
-.back-top { color: #fff; background: #17243b; border: 1px solid #17243b; width: 48px; height: 48px; display: grid; place-items: center; border-radius: 2px; font-size: 22px; line-height: 1; transition: transform .2s ease, color .2s ease, background .2s ease, border-color .2s ease; position: fixed; z-index: 30; right: 28px; bottom: 28px; box-shadow: 0 5px 18px #20231f25; }
+.back-top { color: #fff; background: #17243b; border: 1px solid #17243b; width: 48px; height: 48px; display: grid; place-items: center; border-radius: 50%; font-size: 22px; line-height: 1; transition: transform .2s ease, color .2s ease, background .2s ease, border-color .2s ease; position: fixed; z-index: 30; right: 28px; bottom: 28px; box-shadow: 0 5px 18px #20231f25; }
 .back-top:hover { transform: translateY(-3px); color: #fff; background: #243858; border-color: #243858; }
 .back-top { font-size: 0; }
 .back-top::before { content: "↑"; font-size: 22px; }
