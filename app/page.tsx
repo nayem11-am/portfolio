@@ -24,7 +24,7 @@ export default function Home() {
       <ScrollReset />
       <header className="site-header">
         <a className="wordmark" href="#top" aria-label="Nayem Chowdhury, home">
-          <span className="wordmark-mark">N<span>.</span></span>
+          <span className="wordmark-mark">N</span>
           <span className="wordmark-name">Nayem Chowdhury</span>
         </a>
         <nav aria-label="Main navigation">
@@ -61,7 +61,6 @@ export default function Home() {
             />
           </div>
           <div className="portrait-caption"><span>NA YEM CHOWDHURY</span><span>DEVELOPER · FOUNDER</span></div>
-          <span className="portrait-index">01 / 04</span>
           <span className="portrait-stamp">IDEAS<br />INTO<br /><i>USEFUL</i></span>
         </div>
         <div className="hero-bottom"><span>INDEPENDENT BY NATURE</span><span>BUILDING WITH INTENTION <span className="down-mark">↓</span></span></div>
@@ -113,7 +112,6 @@ export default function Home() {
       </section>
 
       <section className="founder-section shell" id="pleron">
-        <div className="founder-mark" aria-hidden="true">P<span>.</span></div>
         <div className="founder-content">
           <p className="section-label">04 <span>—</span> BUILDING AS A FOUNDER</p>
           <h2>Making room for<br />ideas to become <em>real.</em></h2>
