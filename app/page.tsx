@@ -63,7 +63,7 @@ export default function Home() {
           <div className="portrait-caption"><span>NA YEM CHOWDHURY</span><span>DEVELOPER · FOUNDER</span></div>
           <span className="portrait-stamp">IDEAS<br />INTO<br /><i>USEFUL</i></span>
         </div>
-        <div className="hero-bottom"><span>INDEPENDENT BY NATURE</span><span>BUILDING WITH INTENTION <span className="down-mark">↓</span></span></div>
+        <div className="hero-bottom"><span>INDEPENDENT BY NATURE</span></div>
       </section>
 
       <section className="intro-band" id="about">
@@ -127,7 +127,7 @@ export default function Home() {
             sizes="(max-width: 640px) 84vw, (max-width: 900px) 145px, 180px"
             className="founder-image"
           />
-          <span>PRODUCTS · SOFTWARE<br />· PRACTICAL IDEAS</span>
+        
         </div>
       </section>
 
